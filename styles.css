@@ -6,137 +6,95 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(./images/DGBackgroundIMG.png);
-    background-color: black;
+    color: #353953;
+    background-color:#f0f1f7;
+}
+.container{
+    margin-top: 10vh;
+}
+.brand{
+    height: auto;
+    width: 85%;
 }
 
-header{
-    display: flex;
-    width: 70%;
-    height: 20vh;
-    margin: auto;
-    align-items: center;
+.intro h1{
+    font-size: 7vw;
+    font-weight: bold;
 }
-main{
+.intro p{
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+.menu{
+    margin: 25px 0px 0px 0px;
     display: flex;
-    width: 70%;
-    margin: auto;
+    background-color: #353953;
+    padding: 30px;
+}
+.websites{
+    cursor: pointer;
     color: white;
+    font-weight: 200;
+    font-size: 1.3vw;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 2px;
 }
-
-.skills-box img{
-    align-content: center;
+.websites img{
+    height: 6vw;
     width: auto;
-    height: 190px;
-    padding: 0px 0px 50px 0px;
+    margin: 0px 0px 25px 0px;
 }
-.skills-box h1{
+.graphics{
+    cursor: pointer;
     color: white;
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 200;
+    font-size: 1.3vw;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 2px;
 }
-.skills-box a{
-    text-decoration: none;
-    line-height: 35px;
+.graphics img{
+    height: 6vw;
+    width: auto;
+    margin: 0px 0px 25px 0px;
 }
-.intro-box{
-    min-height: 30vh;
-    display: flex;
-    align-items: flex-end;
-}
-.intro-text h1{
-    font-size: 100px;
-}
-.intro-text p{
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 35px;
-}
-.skills-box{
-    min-height: 50vh;
-    display: flex;
-}
-.featured-img{
-    justify-self: center;
-}
-.title{
-    justify-content: start;
-}
-.webdesign{
-    flex:1;
+.sketchup{
     cursor: pointer;
-    background-color: #ff1577;
-    align-content: space-between;
-    padding: 20px;
-    justify-content:space-evenly;
-
+    color: white;
+    font-weight: 200;
+    font-size: 1.3vw;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 2px;
 }
-.graphicdesign{
-    flex:1;
-    cursor: pointer;
-    background-color: #7a0ee5;
-    align-content: space-between;
-    padding: 20px;
-    justify-content:space-evenly;
-}
-.architecture{
-    flex:1;
-    cursor: pointer;
-    background-color: #ffbd15;
-    align-content: space-between;
-    padding: 20px;
-    justify-content:space-evenly;
+.sketchup img{
+    height: 6vw;
+    width: auto;
+    margin: 0px 0px 25px 0px;
 }
 .music{
-    flex:1;
     cursor: pointer;
-    background-color: #ce2323;
-    align-content: space-between;
-    padding: 20px;
-    justify-content:space-evenly;
+    color: white;
+    font-weight: 200;
+    font-size: 1.3vw;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 2px;
 }
-.logo-container,.nav-links{
-    display: flex;
+.music img{
+    height: 6vw;
+    width: auto;
+    margin: 0px 0px 25px 0px;
 }
-
-.logo-container{
+footer{
     flex: 1;
+    height: 10vh;
 }
-
-nav{
-    flex: 1;
-}
-
 .nav-links{
-    justify-content: space-around;
+    display: flex;
     list-style: none;
-
 }
 .nav-link{
-    color: white;
-    font-size: 25px;
+    color: #353953;
+    font-size: 15px;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 400;
 }
-
-@media screen and (max-width: 1024px){
-    header{
-        display: flex;
-        height: 10vh;
-        align-items: center;
-    }
-    main{
-        display: flex;
-        color: white;
-    }
-    .intro-box{
-        min-height: 10vh;
-    }
-    .intro-text h1{
-        font-size: 60px;
-    }
-    .skills-box{
-        flex-direction: column;
-        text-align: center;
-    }
-}
+@media min-width
