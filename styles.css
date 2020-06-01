@@ -172,7 +172,7 @@ footer{
     }
     .branding{
         display: flex;
-        height: 82vh;
+        height: auto;
         width: 25vw;
         position: absolute;
         top: 5%;
