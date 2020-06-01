@@ -248,15 +248,19 @@ footer{
     }
 }
 @media(max-width: 540px){
-    main{
-        height: 80vh;
-        justify-content: center;
-    }
     .container{
         position: unset;
     }
     .branding img{
         visibility: hidden;
+    }
+    .heading h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .heading p{
+        font-size: 18px;
+        font-weight: 200;
     }
     .menu{
         display: grid;
@@ -265,6 +269,7 @@ footer{
         font-size: 24px;
         letter-spacing: 2px;
         color: violet;
+        margin: 40px 0px;
     }
     .websites,.graphics,.sketch-up,.music{
         font-weight: 200;
