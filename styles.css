@@ -126,3 +126,9 @@ footer{
         width: auto;
     }
 }
+@media(max-width: 720px){
+    .branding img{
+        height: 437px;
+        width: auto;
+    }
+}
