@@ -161,8 +161,39 @@ footer{
 }
 
 @media(max-width: 922px){
+    .container{
+        position: absolute;
+        top: 5%;
+        left: 25vw;
+    }
+    .branding{
+        display: flex;
+        height: 82vh;
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        align-items: center;;
+    }
     .branding img{
-        height: 437px;
+        height: 60vh;
+        width: auto;
+        padding: 0px 100px 0px 0px;
+    }
+    .heading h1{
+        font-size: 95px;
+        font-weight: bold;
+    }
+    .heading p{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .websites,.graphics,.sketch-up,.music{
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    .websites img,.graphics img,.sketch-up img,.music img{
+        height: 100px;
         width: auto;
     }
 }
