@@ -26,11 +26,11 @@ main{
     position: absolute;
     top: 10%;
     left: 10%;
-    background-color: yellow;
 }
 .branding img{
     height: 80vh;
     width: auto;
+
 }
 .heading h1{
     font-size: 7vw;
