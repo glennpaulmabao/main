@@ -141,6 +141,14 @@ footer{
         width: auto;
         padding: 0px 100px 0px 0px;
     }
+    .heading h1{
+        font-size: 95px;
+        font-weight: bold;
+    }
+    .heading p{
+        font-size: 18px;
+        font-weight: 200;
+    }
 }
 
 @media(max-width: 922px){
