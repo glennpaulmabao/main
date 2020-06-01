@@ -124,11 +124,20 @@ footer{
     .branding img{
         height: 437px;
         width: auto;
+        padding: 0px 10% 0px 0px;
     }
 }
 @media(max-width: 720px){
     .branding img{
-        height: 437px;
+        height: 357px;
         width: auto;
+        padding: 0px 10% 0px 0px;
+    }
+}
+@media(max-width: 540px){
+    .branding img{
+        height: 257px;
+        width: auto;
+        padding: 0px 10% 0px 0px;
     }
 }
