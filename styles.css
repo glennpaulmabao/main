@@ -22,13 +22,14 @@ main{
 }
 .branding{
     display: flex;
-    height: 80vh;
+    height: 82vh;
     position: absolute;
     top: 10%;
     left: 10%;
+    background-color: yellow;
 }
 .branding img{
-    height: 80vh;
+    height: 517px;
     width: auto;
 
 }
