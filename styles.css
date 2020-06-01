@@ -26,10 +26,11 @@ main{
     position: absolute;
     top: 10%;
     left: 10%;
-    background-color: yellow;
+    align-items: center;;
 }
 .branding img{
-    height: 517px;
+    align-items: center;
+    height: 80vh;
     width: auto;
 
 }
@@ -120,18 +121,38 @@ footer{
     text-decoration: none;
     font-weight: 400;
 }
+
+@media(max-width: 1140px){
+    .container{
+        position: absolute;
+        top: 10%;
+        left: 35vw;
+    }
+    .branding{
+        display: flex;
+        height: 82vh;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        align-items: center;;
+    }
+    .branding img{
+        height: 70vh;
+        width: auto;
+        padding: 0px 100px 0px 0px;
+    }
+}
+
 @media(max-width: 922px){
     .branding img{
         height: 437px;
         width: auto;
-        padding: 0px 10% 0px 0px;
     }
 }
 @media(max-width: 720px){
     .branding img{
         height: 357px;
         width: auto;
-        padding: 0px 10% 0px 0px;
     }
 }
 @media(max-width: 540px){
