@@ -23,13 +23,13 @@ main{
 .branding{
     display: flex;
     height: 80vh;
-    width: auto;
     position: absolute;
     top: 10%;
     left: 10%;
+    background-color: yellow;
 }
 .branding img{
-    height: 80vh;
+    height: 60vh;
     width: auto;
 }
 .heading h1{
