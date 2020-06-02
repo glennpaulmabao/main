@@ -174,6 +174,12 @@ nav{
     width: 80%;
     margin: auto;
 }
+.projects2{
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    top: 80vh;
+}
 .descriptions{
     position: absolute;
     z-index: 1;
@@ -187,10 +193,11 @@ nav{
 .flex-desc {
     display: flex;
     justify-content: flex-end;
+    padding-right: 20%;
   }
   
 .flex-desc > p {
-    width: 245px;
+    width: 40%;
     text-align: left;
     font-size: 11px;
   }
@@ -206,9 +213,26 @@ nav{
     z-index: 2;
     height: 50.1vh;
     width: 50.1vw;
-    background-color: black;
+    background-color:#f0f1f7;
     top: 42vh;
     left: 10vw;
+    overflow: hidden;
+}
+.img-placeholder > img{
+    object-fit: cover;
+    object-position: top;
+    height: auto;
+    width: 50.1vw;
+    position: relative;
+    animation: mockup 50s infinite;
+    animation-direction: normal;
+}
+#mockup-motion{
+    animation-timing-function: ease-out;
+}
+@keyframes mockup{
+    0%{top: 0px;}
+    100%{top: -2000px;}
 }
 
 @media(max-width: 1140px){
