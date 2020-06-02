@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    color: #353953;
-    background-color:#f0f1f7;
+    color: white;
+    background-color:black;
 }
 main{
     width: 80%;
@@ -48,13 +48,16 @@ main{
     justify-content: flex-start;
     margin: 40px 0px;
     display: flex;
-    background-color: #353953;
+    border-width: thin;
+    border-color: white;
+    border-style: solid none solid solid;
     padding: 30px;
 }
 .menu a{
     text-decoration: none;
     color: white;
 }
+
 .websites{
     cursor: pointer;
     color: white;
@@ -118,7 +121,7 @@ footer{
 }
 .footer-link{
     margin: 0px 30px 0px 0px;
-    color: #353953;
+    color: gray;
     font-size: 15px;
     text-decoration: none;
     font-weight: 400;
@@ -128,7 +131,9 @@ nav{
     width: 100%;
     margin: auto;
     height: 10vh;
-    background-color: #353953;
+    border-width: thin;
+    border-color: white;
+    border-style: none none solid none;
 }
 .nav-links{
     display: flex;
@@ -198,7 +203,9 @@ nav{
     z-index: 1;
     height: 50.1vh;
     width: 50.1vw;
-    background-color: #353953;
+    border-width: thin;
+    border-color: white;
+    border-style: solid;
     color: white;
     top: 23vh;
     left: 39vw;
@@ -226,7 +233,9 @@ nav{
     z-index: 2;
     height: 50.1vh;
     width: 50.1vw;
-    background-color:#f0f1f7;
+    border-width: thin;
+    border-color:white;
+    border-style: solid;
     top: 42vh;
     left: 10vw;
     overflow: hidden;
