@@ -12,6 +12,7 @@ body{
     background-color:#f0f1f7;
 }
 main{
+    width: 80%;
     height: 95vh;
     align-items: center;
 }
@@ -174,11 +175,23 @@ nav{
     width: 80%;
     margin: auto;
 }
-.projects2{
+.selector{
+    display: flex;
     position: absolute;
     width: 80%;
     margin: auto;
+    justify-content: flex-end;
     top: 80vh;
+}
+.selector a{
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.pages div{
+    visibility: hidden;
+}
+.pages div:target {
+    visibility: visible;
 }
 .descriptions{
     position: absolute;
