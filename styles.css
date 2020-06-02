@@ -171,7 +171,6 @@ nav{
     width: auto;
 }
 .projects{
-    display: flex;
     width: 80%;
     margin: auto;
 }
@@ -181,12 +180,26 @@ nav{
     height: 50.1vh;
     width: 50.1vw;
     background-color: #353953;
+    color: white;
     top: 23vh;
     left: 39vw;
 }
-.project-title{
-    background-color: blue;
-    padding: 10%;
+.flex-desc {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.flex-desc > p {
+    width: 245px;
+    text-align: left;
+    font-size: 11px;
+  }
+.descriptions h1{
+    padding: 5%;
+    text-transform: uppercase;
+    font-size: 69px;
+    color: white;
+    font-weight:900;
 }
 .img-placeholder{
     position: absolute;
