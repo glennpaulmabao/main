@@ -240,7 +240,7 @@ nav{
     border-style: solid;
     top: 32vh;
     left: 10vw;
-    overflow: hidden;
+    overflow: scroll;
 }
 .img-placeholder > img{
     object-fit: cover;
@@ -248,8 +248,7 @@ nav{
     height: auto;
     width: 50.1vw;
     position: relative;
-    animation: mockup 50s infinite;
-    animation-direction: normal;
+    vertical-align: bottom;
 }
 #mockup-motion{
     animation-timing-function: ease-out infinite;
