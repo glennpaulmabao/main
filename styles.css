@@ -190,9 +190,13 @@ nav{
     margin: auto;
 }
 .uno{
+    display: block;
+    position: relative;
     background-color: black;
 }
 .dos{
+    display: block;
+    position: relative;
     background-color:#1c1c1c;
 }
 
@@ -208,26 +212,32 @@ nav{
     bottom: 36vh;
     left: 39vw;
 }
-.descriptions h1{
-    padding: 2vh 5vh;
-    text-transform: uppercase;
-    font-size: 3vw;
-    color: white;
-    font-weight:900;
-}
+
 .flex-desc {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0px 2.5vh 0px 0px;
+    width: auto;
+    height: 100%;
+    display: block;
+    position: relative;
     white-space: pre-wrap;
     word-wrap: break-word;
-  }
+}
+
+.flex-desc h1{
+    position: relative;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    font-weight:900;
+    transform: rotate(270deg);
+} 
   
-.flex-desc > p {
+.flex-desc p {
+    margin: 0px 0px 0px 55%;
     width: 20vw;
     text-align: left;
     font-size: 11px;
-  }
+}
 
 .img-placeholder{
     position: relative;
@@ -238,7 +248,7 @@ nav{
     background-color: black;
     border-color:white;
     border-style: solid;
-    top: 32vh;
+    top: 22vh;
     left: 10vw;
     overflow: scroll;
 }
