@@ -28,14 +28,14 @@ main{
     position: absolute;
     top: 10%;
     left: 10%;
-    align-items: center;
     object-fit: cover;
 }
-.branding > img{
+.branding img{
     align-items: center;
-    height: 100vh;
+    height: 40vw;
     width: auto;
     object-fit: cover;
+    object-position: top;
 
 }
 .heading h1{
