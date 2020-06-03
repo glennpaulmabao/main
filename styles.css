@@ -108,7 +108,7 @@ main{
 .websites p, .graphics p, .sketch-up p, .music p{
     color: white;
     font-weight: 200;
-    font-size: 1.2vw;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 footer{
@@ -265,5 +265,9 @@ nav{
 @media(max-width: 600px){
     .heading p{
         font-size: 14px;
+    }
+    .menu{
+        display: grid;
+        grid-template-rows: 2;
     }
 }
