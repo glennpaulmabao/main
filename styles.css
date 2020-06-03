@@ -24,7 +24,7 @@ main{
 }
 .menu-container{
     position: absolute;
-    top: 50vh;
+    top: 50%;
     left: 45%;    
 }
 
