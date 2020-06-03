@@ -220,20 +220,24 @@ nav{
     position: relative;
     white-space: pre-wrap;
     word-wrap: break-word;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .flex-desc h1{
-    position: relative;
-    text-align: justify;
+    position: absolute;
+    bottom: 10vh;
+    left: 22vw;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.8vw;
     color: white;
     font-weight:900;
+    transform-origin: 0 0;
     transform: rotate(270deg);
 } 
   
 .flex-desc p {
-    margin: 0px 0px 0px 55%;
+    margin: 10% 0px 0px 55%;
     width: 20vw;
     text-align: left;
     font-size: 11px;
@@ -279,5 +283,16 @@ nav{
     .menu-container{
         top: 35%;
         left: 5%;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
     }
 }
