@@ -268,6 +268,6 @@ nav{
     }
     .menu{
         display: grid;
-        grid-template-rows: 2;
+        grid-auto-flow: column;
     }
 }
