@@ -24,7 +24,7 @@ main{
 }
 .menu-container{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 45%;    
 }
 
@@ -61,7 +61,7 @@ main{
 }
 .menu{
     justify-content: flex-start;
-    margin: 40px 0px;
+    margin: 10% 0px;
     display: flex;
     border-width: thin;
     border-color: white;
@@ -186,25 +186,8 @@ nav{
     width: 80%;
     margin: auto;
 }
-.selector{
-    display: flex;
-    position: absolute;
-    width: 80%;
-    margin: auto;
-    justify-content: flex-end;
-    top: 80vh;
-}
-.selector a{
-    text-decoration: none;
-    margin: 0px 15px;
-}
-.pages div{
-    visibility: hidden;
-}
-.pages div:target {
-    visibility: visible;
-}
-.descriptions{;
+
+.descriptions{
     position: absolute;
     z-index: 1;
     height: 50.1vh;
@@ -276,7 +259,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 40vh;
-        left: 10%;
+        top: 35%;
+        left: 5%;
     }
 }
