@@ -117,8 +117,11 @@ main{
     letter-spacing: 2px;
 }
 footer{
+    display: flex;
     width: 80%;
     margin: auto;
+    position: fixed;
+    top: 90%;
 }
 .footer-links{
     display: flex;
