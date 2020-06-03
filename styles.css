@@ -12,8 +12,9 @@ body{
     background-color:black;
 }
 main{
-    width: 80%;
-    height: 95vh;
+    width: 80vw;
+    height: auto;
+    margin: auto;
     align-items: center;
 }
 .container{
@@ -39,6 +40,9 @@ main{
     object-position: top;
 
 }
+.heading{
+    width: 45vw;
+}
 
 .heading h1{
     font-size: 7.5vw;
@@ -46,6 +50,7 @@ main{
     line-height: 100%;
 }
 .heading p{
+    margin: 1vh 0px 0px 0px;
     font-size: 20px;
     font-weight: 200;
 }
@@ -57,6 +62,7 @@ main{
     border-color: white;
     border-style: solid none solid solid;
     padding: 30px;
+    width: 55vw;
 }
 .menu a{
     text-decoration: none;
@@ -65,55 +71,45 @@ main{
 
 .websites{
     cursor: pointer;
-    color: white;
-    font-weight: 200;
-    font-size: 16pt;
-    letter-spacing: 2px;
     margin: 0px 50px 0px 0px;
 }
 .websites img{
-    height: 87px;
+    height: 8.5vh;
     width: auto;
     margin: 0px 0px 25px 0px;
 }
 .graphics{
     cursor: pointer;
-    color: white;
-    font-weight: 200;
-    font-size: 16pt;
-    letter-spacing: 2px;
     margin: 0px 50px 0px 0px;
 }
 .graphics img{
-    height: 87px;
+    height: 8.5vh;
     width: auto;
     margin: 0px 0px 25px 0px;
 }
 .sketch-up{
     cursor: pointer;
-    color: white;
-    font-weight: 200;
-    font-size: 16pt;
-    letter-spacing: 2px;
     margin: 0px 50px 0px 0px;
 }
 .sketch-up img{
-    height: 87px;
+    height: 8.5vh;
     width: auto;
     margin: 0px 0px 25px 0px;
 }
 .music{
     cursor: pointer;
-    color: white;
-    font-weight: 200;
-    font-size: 16pt;
-    letter-spacing: 2px;
     margin: 0px 50px 0px 0px;
 }
 .music img{
-    height: 87px;
+    height: 8.5vh;
     width: auto;
     margin: 0px 0px 25px 0px;
+}
+.websites p, .graphics p, .sketch-up p, .music p{
+    color: white;
+    font-weight: 200;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
 }
 footer{
     width: 80%;
@@ -264,4 +260,10 @@ nav{
 @keyframes mockup{
     0%{top: 0px;}
     100%{top: -2000px;}
+}
+
+@media(max-width: 600px){
+    .heading p{
+        font-size: 14px;
+    }
 }
