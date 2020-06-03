@@ -198,7 +198,7 @@ nav{
 .pages div:target {
     visibility: visible;
 }
-.descriptions{
+.descriptions{;
     position: absolute;
     z-index: 1;
     height: 50.1vh;
@@ -209,25 +209,30 @@ nav{
     color: white;
     top: 23vh;
     left: 39vw;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.descriptions h1{
+    padding: 2vh 5vh;
+    text-transform: uppercase;
+    font-size: 6vw;
+    color: white;
+    font-weight:900;
 }
 .flex-desc {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20%;
+    padding: 0px 4vh 0px 0px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
   
 .flex-desc > p {
-    width: 40%;
+    width: 20vw;
     text-align: left;
     font-size: 11px;
   }
-.descriptions h1{
-    padding: 5%;
-    text-transform: uppercase;
-    font-size: 69px;
-    color: white;
-    font-weight:900;
-}
+
 .img-placeholder{
     position: absolute;
     z-index: 2;
