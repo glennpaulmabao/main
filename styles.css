@@ -24,7 +24,7 @@ main{
 }
 .menu-container{
     position: absolute;
-    top: 38%;
+    top: 40vh;
     left: 45%;    
 }
 
@@ -270,9 +270,65 @@ nav{
     }
 }
 
-@media(max-width: 700px){
+@media(max-width: 768px){
     .heading p{
         font-size: 14px;
+    }
+    .heading h1{
+        font-size: 6.5vh;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+    }
+    .menu-container{
+        top: 40vh;
+        left: 0;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+@media(max-width: 800px){
+    .heading p{
+        font-size: 14px;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+    }
+    .menu-container{
+        top: 40vh;
+        left: 0;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+@media(max-width: 1024px){
+    .heading h1{
+        font-size: 6.5vh;
+    }
+    .heading p{
+        font-size: 2vh;
     }
     .menu{
         display: flex;
