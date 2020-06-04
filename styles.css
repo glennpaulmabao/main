@@ -100,8 +100,8 @@ footer{
     display: flex;
     width: 80%;
     margin: auto;
-    position: fixed;
-    top: 90%;
+    position: absolute;
+    bottom: 0;
 }
 .footer-links{
     display: flex;
