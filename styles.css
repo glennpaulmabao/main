@@ -60,55 +60,28 @@ main{
     font-weight: 200;
 }
 .menu{
-    justify-content: flex-start;
-    margin: 10% 0px;
+    margin: 10vh 0px;
     display: flex;
-    border-width: thin;
-    border-color: white;
-    border-style: solid none solid solid;
-    padding: 30px;
+    background-color: #ff0000;
+    padding: 5vh;
     width: 55vw;
+    height: auto;
 }
 .menu a{
     text-decoration: none;
     color: white;
 }
 
-.websites{
+.websites,.graphics,.sketch-up,.music{
     cursor: pointer;
-    margin: 0px 50px 0px 0px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
 }
-.websites img{
+.websites img,.graphics img,.sketch-up img,.music img{
     height: 8.5vh;
     width: auto;
-    margin: 0px 0px 25px 0px;
-}
-.graphics{
-    cursor: pointer;
-    margin: 0px 50px 0px 0px;
-}
-.graphics img{
-    height: 8.5vh;
-    width: auto;
-    margin: 0px 0px 25px 0px;
-}
-.sketch-up{
-    cursor: pointer;
-    margin: 0px 50px 0px 0px;
-}
-.sketch-up img{
-    height: 8.5vh;
-    width: auto;
-    margin: 0px 0px 25px 0px;
-}
-.music{
-    cursor: pointer;
-    margin: 0px 50px 0px 0px;
-}
-.music img{
-    height: 8.5vh;
-    width: auto;
-    margin: 0px 0px 25px 0px;
+    margin: 2vh 0px;
 }
 .websites p, .graphics p, .sketch-up p, .music p{
     color: white;
@@ -272,7 +245,7 @@ nav{
     100%{top: -2000px;}
 }
 
-@media(max-width: 600px){
+@media(max-width: 500px){
     .heading p{
         font-size: 14px;
     }
@@ -281,8 +254,33 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 35%;
-        left: 5%;
+        top: 2vh;
+        left: 0;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+@media(max-width: 700px){
+    .heading p{
+        font-size: 14px;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+    }
+    .menu-container{
+        top: 40vh;
+        left: 0;
     }
     .flex-desc h1{
         font-size: 3vw;
