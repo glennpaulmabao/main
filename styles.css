@@ -25,21 +25,19 @@ main{
 }
 .menu-container{
     position: absolute;
-    bottom: 20vh;
+    bottom: 10vh;
     left: 45%;    
 }
 
 .branding{
     display: flex;
-    height: 82vh;
-    width: auto;
     position: absolute;
     top: 10%;
     left: 10%;
 }
 .logo{
-    width: 30vw;
     height: auto;
+    width: 23.6vw;
     cursor: pointer;
     background-size: auto;
     overflow: hidden;
@@ -47,7 +45,7 @@ main{
     object-position: top;
 }
 .logo img{
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 .heading{
@@ -111,7 +109,7 @@ footer{
 .footer-link{
     margin: 0px 30px 0px 0px;
     color: gray;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     font-weight: 400;
 }
@@ -265,7 +263,6 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 2vh;
         left: 0;
     }
     .flex-desc h1{
@@ -294,7 +291,6 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 2vh;
         left: 0;
     }
     .flex-desc h1{
@@ -320,7 +316,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 40vh;
+        bottom: 10vh;
         left: 0;
     }
     .flex-desc h1{
@@ -349,7 +345,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 40vh;
+        bottom: 10vh;
         left: 0;
     }
     .flex-desc h1{
@@ -377,7 +373,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 40vh;
+        bottom: 10vh;
         left: 0;
     }
     .flex-desc h1{
@@ -406,7 +402,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        bottom: 50vh;
+        bottom: 10vh;
         left: 0vw;
     }
     .flex-desc h1{
@@ -435,7 +431,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 50vh;
+        bottom: 10vh;
         left: 0vw;
     }
     .flex-desc h1{
