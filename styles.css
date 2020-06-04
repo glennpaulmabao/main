@@ -37,10 +37,14 @@ main{
     left: 10%;
     object-fit: cover;
 }
-.branding img{
-    align-items: center;
-    height: 40vw;
-    width: auto;
+.logo{
+    position: inherit;
+    padding: 30%;
+    overflow: hidden;
+}
+.logo img{
+    height: auto;
+    width: 30vw;
     object-fit: cover;
     object-position: top;
 
@@ -304,6 +308,10 @@ nav{
 }
 
 @media(max-width: 768px){
+    .logo img{
+        height: 10vh;
+        width: auto;
+    }
     .heading p{
         font-size: 14px;
     }
@@ -359,7 +367,13 @@ nav{
     }
 }
 
+
+
 @media(max-width: 1024px){
+    .logo img{
+        height: 40vh;
+        width: auto;
+    }
     .heading h1{
         font-size: 9vw;
     }
@@ -371,7 +385,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 45vh;
+        top: 50vh;
         left: 0vw;
     }
     .flex-desc h1{
