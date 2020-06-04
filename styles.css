@@ -46,8 +46,9 @@ main{
 
 }
 .heading{
-    width: 48vw;
+    width: auto;
     height: 40vh;
+    padding: 0px 10% 0px 0px;
 }
 
 .heading h1{
@@ -330,7 +331,10 @@ nav{
     }
 }
 
-@media(max-width: 800px){
+@media(max-width: 812px){
+    .heading h1{
+        font-size: 2px;
+    }
     .heading p{
         font-size: 14px;
     }
