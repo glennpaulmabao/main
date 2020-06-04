@@ -25,7 +25,7 @@ main{
 }
 .menu-container{
     position: absolute;
-    top: 40vh;
+    bottom: 20vh;
     left: 45%;    
 }
 
@@ -36,19 +36,19 @@ main{
     position: absolute;
     top: 10%;
     left: 10%;
-    object-fit: cover;
 }
 .logo{
-    position: inherit;
-    padding: 30%;
+    width: 30vw;
+    height: auto;
+    cursor: pointer;
+    background-size: auto;
     overflow: hidden;
+    object-fit: contain;
+    object-position: top;
 }
 .logo img{
     height: auto;
-    width: 30vw;
-    object-fit: cover;
-    object-position: top;
-
+    width: 100%;
 }
 .heading{
     width: auto;
@@ -253,14 +253,7 @@ nav{
 }
 
 @media(max-width: 360px){
-    .logo{
-        width: 30vw;
-        height: auto;
-    }
-    .logo img{
-        width: 10vh;
-        height: auto;
-    }
+
     .heading p{
         font-size: 14px;
     }
@@ -289,10 +282,7 @@ nav{
 }
 
 @media(max-width: 411px){
-    .logo img{
-        height: auto;
-        width: 20vh;
-    }
+
     .heading p{
         font-size: 14px;
     }
@@ -321,10 +311,7 @@ nav{
 }
 
 @media(max-width: 640px){
-    .logo img{
-        height: 10vh;
-        width: auto;
-    }
+
     .heading p{
         font-size: 14px;
     }
@@ -350,10 +337,7 @@ nav{
 }
 
 @media(max-width: 768px){
-    .logo img{
-        height: 10vh;
-        width: auto;
-    }
+
     .heading p{
         font-size: 14px;
     }
@@ -409,13 +393,37 @@ nav{
     }
 }
 
-
-
 @media(max-width: 1024px){
-    .logo img{
-        height: 40vh;
-        width: auto;
+
+    .heading h1{
+        font-size: 9vw;
     }
+    .heading p{
+        font-size: 2vh;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+    }
+    .menu-container{
+        bottom: 50vh;
+        left: 0vw;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+@media(max-width: 1366px){
+
     .heading h1{
         font-size: 9vw;
     }
