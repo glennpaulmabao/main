@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    image-resolution: 72dpi;
 }
 
 body{
@@ -251,7 +252,15 @@ nav{
     100%{top: -2000px;}
 }
 
-@media(max-width: 375px){
+@media(max-width: 360px){
+    .logo{
+        width: 30vw;
+        height: auto;
+    }
+    .logo img{
+        width: 10vh;
+        height: auto;
+    }
     .heading p{
         font-size: 14px;
     }
@@ -279,7 +288,11 @@ nav{
     }
 }
 
-@media(max-width: 414px){
+@media(max-width: 411px){
+    .logo img{
+        height: auto;
+        width: 20vh;
+    }
     .heading p{
         font-size: 14px;
     }
@@ -292,6 +305,35 @@ nav{
     }
     .menu-container{
         top: 2vh;
+        left: 0;
+    }
+    .flex-desc h1{
+        font-size: 3vw;
+        transform: none;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .flex-desc p{
+        position: absolute;
+        top: 10%;
+    }
+}
+
+@media(max-width: 640px){
+    .logo img{
+        height: 10vh;
+        width: auto;
+    }
+    .heading p{
+        font-size: 14px;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+    }
+    .menu-container{
+        top: 40vh;
         left: 0;
     }
     .flex-desc h1{
