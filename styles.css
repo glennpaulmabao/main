@@ -357,7 +357,7 @@ nav{
 
 @media(max-width: 1024px){
     .heading h1{
-        font-size: 12vh;
+        font-size: 9vw;
     }
     .heading p{
         font-size: 2vh;
@@ -367,7 +367,7 @@ nav{
         width: 100vw;
     }
     .menu-container{
-        top: 55vh;
+        top: 45vh;
         left: 0vw;
     }
     .flex-desc h1{
