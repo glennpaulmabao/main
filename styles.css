@@ -250,6 +250,14 @@ nav{
     100%{top: -2000px;}
 }
 
+iframe{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
 @media(max-width: 360px){
 
     .heading p{
