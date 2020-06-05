@@ -139,6 +139,7 @@ ul {
   
   .active {
     background-color: red;
+    font-weight: 800;
   }
 
 .pages-nav{
