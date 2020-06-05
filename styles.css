@@ -118,9 +118,6 @@ nav{
     width: 100%;
     margin: auto;
     height: 10vh;
-    border-width: thin;
-    border-color: white;
-    border-style: none none solid none;
 }
 .nav-links{
     display: flex;
@@ -143,6 +140,7 @@ nav{
     font-size: 15px;
     text-decoration: none;
     font-weight: 800;
+    background-color: red;
 }
 .pages-nav{
     display: flex;
@@ -244,6 +242,9 @@ nav{
 }
 
 .welcome-header{
+    display: flex;
+    justify-content: center;
+    align-self: center;
     height: 30vh;
     width: 100%;
     background-color: red;
