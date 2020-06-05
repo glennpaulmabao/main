@@ -242,12 +242,12 @@ nav{
     position: relative;
     vertical-align: bottom;
 }
-#mockup-motion{
-    animation-timing-function: ease-out infinite;
-}
-@keyframes mockup{
-    0%{top: 0px;}
-    100%{top: -2000px;}
+
+.welcome-header{
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+    padding: 10% 0;
 }
 
 iframe{
