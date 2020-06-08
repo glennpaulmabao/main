@@ -330,6 +330,7 @@ iframe{
 }
 .featured-img{
     width: 80%;
+    padding: 3%;
     overflow: hidden;
     object-fit: cover;
 }
@@ -348,14 +349,15 @@ iframe{
     height: auto;
 }
 .thumb-view{
-    padding: 0px 5%;
+    padding: 0px;
+    margin: 0px;
     object-fit: cover;
     object-position: center;
     cursor: pointer;
     margin: auto;
 }
 .thumb-view img{
-    width: 24%;
+    width: 12.12vw;
     height: auto;
 }
 
