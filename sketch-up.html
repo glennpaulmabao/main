@@ -42,13 +42,43 @@
             </div>
             <div class="featured-img">
                 <div class="featured-img-holder">
-                    <img src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView.jpg" alt="">
-                    <img src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView2.jpg" alt="">
-                    <img src="./img/Sketchup/Project1/HomeImprovmentsDesignPorchView.jpg" alt="">
-                    <img src="./img/Sketchup/Project1/HomeImprovmentsDesignDeckView.jpg" alt="">
+                    <img class="slides"src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView.jpg" alt="">
+                    <img class="slides"src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView2.jpg" style="width:100%;display:none" alt="">
+                    <img class="slides"src="./img/Sketchup/Project1/HomeImprovmentsDesignPorchView.jpg" style="width:100%;display:none" alt="">
+                    <img class="slides"src="./img/Sketchup/Project1/HomeImprovmentsDesignDeckView.jpg" style="width:100%;display:none" alt="">
+                </div>
+                <div class="thumb-view">
+                    <img class="thumbs w3-opacity w3-hover-opacity-off"src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView.jpg" onclick="currentDiv(1)" alt="">
+                    <img class="thumbs w3-opacity w3-hover-opacity-off"src="./img/Sketchup/Project1/HomeImprovmentsDesignFrontSideView2.jpg" onclick="currentDiv(2)" alt="">
+                    <img class="thumbs w3-opacity w3-hover-opacity-off"src="./img/Sketchup/Project1/HomeImprovmentsDesignPorchView.jpg" onclick="currentDiv(3)" alt="">
+                    <img class="thumbs w3-opacity w3-hover-opacity-off"src="./img/Sketchup/Project1/HomeImprovmentsDesignDeckView.jpg" onclick="currentDiv(4)" alt="">
                 </div>
             </div>
         </div>
     </main>
+
+    <script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("thumbs");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+
 </body>
 </html>
